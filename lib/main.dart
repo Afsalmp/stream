@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Numbers one  '),
+          title: Text('Numbers two '),
         ),
         body: Center(
           child: StreamBuilder<int>(
