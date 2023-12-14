@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
               } else if (snapshot.hasError) {
                 return Text('Error: ${snapshot.error}');
               } else if (!snapshot.hasData) {
-                return Text('No data');
+                return Text('No ');
               } else {
                 return Text('Number: ${snapshot.data}',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold));
